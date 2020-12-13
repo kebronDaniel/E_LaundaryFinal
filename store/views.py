@@ -3,9 +3,9 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def store(request):
+def order(request):
     context = {}
-    return render(request, 'store/store.html', context)
+    return render(request, 'store/order.html', context)
 
 
 def cart(request):
